@@ -8,7 +8,7 @@ UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # Login e senha definidos
-USERNAME = 'escolha o login'
+USERNAME = 'escolha um login'
 PASSWORD = 'escolha uma senha'
 
 # Verifica login
