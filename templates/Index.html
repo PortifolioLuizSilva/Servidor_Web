@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload e Download de Arquivos</title>
+</head>
+<body>
+    <h2>Upload de Arquivo</h2>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h2>Arquivos disponíveis:</h2>
+    <ul>
+    {% for file in files %}
+        <li><a href="{{ url_for('download_file', filename=file) }}">{{ file }}</a></li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
