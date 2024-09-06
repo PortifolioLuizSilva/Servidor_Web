@@ -1,1 +1,3 @@
-# Servidor_Web
+Instalar Python e DependênciasSe você ainda não tem o Python instalado no Windows, siga estes passos:Instalar Python:Baixe a versão mais recente de python.org. Durante a instalação, certifique-se de marcar a opção "Add Python to PATH".Instalar o Flask:Após instalar o Python, abra o Prompt de Comando e execute:pip install flask
+
+Executar o ServidorNo Prompt de Comando (CMD), navegue até o diretório do projeto:cd C:\meu_projetoExecute o servidor com o comando:python App.py O servidor vai rodar no endereço http://127.0.0.1:5000. Você pode acessar essa URL no navegador para visualizar a interface do seu sistema de login e upload de arquivos.
